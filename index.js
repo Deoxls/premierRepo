@@ -70,6 +70,9 @@ var addressesok = postal_codes.forEach(function (cp){
     //demander à la console de me faire ressortir les éléments
     console.log (postal_codes)
     console.log ("test de nodemon")
+    console.log ("test de nodemon")
+    console.log ("test de nodemon")
+    console.log ("test de nodemon")
   }
   main();
   
