@@ -56,23 +56,17 @@ const items = [
     })
 
 //est ce que mon code postal est compris dans mes codes acceptés?
-    /* var adressesaccepted = postal_codes.filter(function (cp){
-   return accepted_codes.include(cp)
- }) */
-// marche pas car postal_codes est un object, doit devenir un array
-/*  */
-var addressesok = postal_codes.forEach(function (cp){
-    return accepted_codes.includes(cp)
+var addressokk = postal_codes.filter(cp=>{
+  return accepted_codes.includes(cp)
 })
 
   //Execute ton code dans la function main
   function main() {
     //demander à la console de me faire ressortir les éléments
     console.log (postal_codes)
-    console.log ("test de nodemon")
-    console.log ("test de nodemon")
-    console.log ("test de nodemon")
-    console.log ("test de nodemon")
+    console.log (accepted_codes)
+    console.log (addressokk)
+    console.log ('coucou')
   }
   main();
   
