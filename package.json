@@ -1,7 +1,7 @@
 {
-  "name": "js",
+  "name": "indextest",
   "version": "1.0.0",
-  "description": "",
+  "description": "npm init  = insissialise npm npm install = intall les dépendances utile au projet npm <Nom du script> = lance le script",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -11,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deoxls/premierRepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Deoxls/premierRepo/issues"
+  },
+  "homepage": "https://github.com/Deoxls/premierRepo#readme"
 }
