@@ -5,7 +5,7 @@ console.log('TCT ITEM')
 console.log(TCT_ITEMS)
 
 //modifs Luca
-var extraprice = 0
+var extraprice = 10
 
 // points hors de paris 
 var AdressesHorsParis = TCT_ADDRESSES.map(function (a) {
