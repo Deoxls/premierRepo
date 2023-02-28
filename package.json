@@ -4,7 +4,12 @@
   "description": "npm init  = insissialise npm npm install = intall les dépendances utile au projet npm <Nom du script> = lance le script",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "grille": "nodemon grille.js"
+=======
+    "start": "nodemon index.js",
+    "test": "nodemon grilletarifaire.js"
+>>>>>>> 4c2838c (clone des modifs de semaine du 22, début de reproduction de la grille de Paul)
   },
   "author": "",
   "license": "ISC",
