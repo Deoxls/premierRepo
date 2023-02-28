@@ -1,3 +1,5 @@
+
+
 const items = [
   {
     weight: 30,
@@ -7,7 +9,7 @@ const items = [
     latest_time: ["09:40", "11:20"]
   },
   {
-    weight: 40,
+    weight: 50,
     name: "sac < 5kg",
     quantity: 4,
     earliest_time: ["08:20", "11:20"],
