@@ -4,8 +4,7 @@
   "description": "npm init  = insissialise npm npm install = intall les dépendances utile au projet npm <Nom du script> = lance le script",
   "main": "index.js",
   "scripts": {
-    "start": "node grille.js",
-    "modif": "nodemon grille.js"
+    "start": "nodemon grille.js"
   },
   "author": "",
   "license": "ISC",
